@@ -19,11 +19,11 @@
 <body>
     <video autoplay muted loop src="assets/videos/background.mp4"></video>
     <!-- Contenedor universal de Bootstrap + mandatory universal para scroll -->
-    <div class="container"> 
+    <div class="container" id="scroll-universal"> 
 
         <!-- HEADER -->
 
-        <div class="row"> <!-- Primer scroll para bajar al main -->
+        <div class="row" id="first-scroll"> <!-- Primer scroll para bajar al main -->
             <header class="col-lg-12">
 
                 <div id="title" class="col">
@@ -37,7 +37,7 @@
 
         <!-- MAIN -->
 
-        <div class="row"> <!-- Segundo scroll para subir al header --> 
+        <div class="row" id="second-scroll"> <!-- Segundo scroll para subir al header --> 
             <main class="col-12">
                 <!-- Frase -->
                 <div class="phrase col">
