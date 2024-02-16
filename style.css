@@ -178,6 +178,14 @@ span {
     font-weight: bold;
 }
 
+.room-buttons {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .party-room iframe{
     border-radius: 10px;
     box-shadow: 0px 5px 5px var(--primary);
