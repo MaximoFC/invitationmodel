@@ -121,10 +121,6 @@ main {
     color: var(--background);
 }
 
-h1 {
-    padding: 2rem 5rem;
-}
-
 span {
     font-weight: bold;
     font-style: oblique;
@@ -222,9 +218,9 @@ span {
 }
 
 .gifts img {
-    width: 300px;
-    animation: jumpAndRotate 15s ease-in-out infinite;
-    filter: blur(5px);
+    max-width: 220px;
+    animation: rotate 15s ease-in-out infinite;
+    filter: blur(2px);
 }
 
 /* SECCIÓN MENSAJE FINAL */
@@ -277,7 +273,7 @@ span {
     }
 }
 
-@keyframes jumpAndRotate {
+@keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
