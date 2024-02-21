@@ -71,6 +71,7 @@ a {
 header {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     position: sticky;
     z-index: 0;
@@ -89,8 +90,6 @@ header {
 
 #flecha {
     animation: jump 2s ease-in-out infinite;
-    position: relative;
-    margin-top: -60px;
     display: flex;
     justify-content: center;
 }
